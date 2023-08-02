@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <title>transition</title>
+        <meta charset="UTF-8" />
+        <style type="text/css">
+        h1 {
+        color: black ;
+        font-size: 300%;
+        transition: color 0.5s ease-in ;
+        }
+        h1:hover {
+        color: red;
+        }
+        .Box {
+        width: 100px;
+        height: 100px;
+        border: 1px solid ;
+        background-color: red;
+        }
+        .box:hover {
+        transform: rotateX(90deg);
+        }
+        </style>
+    </head>
+<body>
+    <h1>transition demo</h1>
+    <p>hover over the heading to change its colour</p>
+    <div class="box" style=" transition: all 0.5s ease-in;
+        width: 100px;
+        height: 100px;
+        border: 1px solid ;
+        background-color: red;">Box 1</div>
+        <br/>
+        <br/>
+    <div class="box" style="transition: all 0.5s ease-in;
+        width: 100px;
+        height: 100px;
+        border: 1px solid ;
+        background-color: red;">Box 2</div>
+    <p>hover over box to make it disappear.</p>
+</body>
+ </html>

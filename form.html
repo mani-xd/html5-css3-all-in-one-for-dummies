@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="YTF-8">
+<title>form.html</title>
+</head>
+<body>
+<h1>sample form with a fieldset</h1>
+<form action = "">
+  <fieldset>
+  <legend>personal data</legend>
+  <p>
+  <label>Name</label>
+  <input type = "text" />
+  </p>
+  </p>
+  <p>
+  <label>address</label>
+  <input type = "text" />
+  </p>
+    <p>
+  <label>phone</label>
+  <input type = "text" />
+  </p>
+  </fieldset>
+  <fieldset>
+  <legend>data</legend>
+  <p>
+  <label>Name</label>
+  <input type = "text"id = "txtName"
+    value = "manish"
+    size = "10"
+    maxlength = "10"
+    />
+</p>
+<p>
+  <label>Password</label>
+  <input type = "password"
+    id = "pwd"
+    value = "secret"
+    size = "10"
+    maxlength = "10"
+    />
+</p>    
+  </fieldset>
+  <fieldset>
+  <legend>personal data</legend>
+  <p>
+  <label>write about yourself</label>
+  </p>
+  <p>
+  <textarea id = "textanswer"
+            rows = "10"
+            cols = "40">
+  </textarea>
+  </p>
+  </fieldset>
+<fieldset>
+<legend>select colour</legend>
+<label>select your favourite colour</label>
+<p>
+<select id = "selcolor">
+<option value = "#ff0000">Red</option>
+<option value = "#00ff00">Green</option>
+<option value = "#0000ff">Blue</option>
+<option value = "#00ffff">Cyan</option>
+<option value = "#ff00ff">Magenta</option>
+<option value = "#ffff00">Yellow</option>
+<option value = "#000000">Black</option>
+<option value = "#ffffff">White</option>
+</select>
+</p>
+</fieldset>
+<fieldset>
+<legend>select sport</legend>
+<label>please select your favourite sport</label>
+<p>
+  <input type = "checkbox"
+    id = "chkcricket"
+    value = "cricket"/>cricket
+</p>
+<p>
+  <input type = "checkbox"
+    id = "chkvolleyball"
+    value = "volleyball"/>volleyball
+</p>
+<p>
+  <input type = "checkbox"
+    id = "chkfootball"
+    value = "football"/>football
+</p>    
+</fieldset>
+<fieldset>
+<legend>select game</legend>
+<label>plese select your favourite game</label>
+<p>
+  <input type = "radio"
+    name = "game"
+    id = "bgmi"
+    value = "lol">Player Unknown's BattleGround
+</p>
+<p>
+ <input type = "radio"
+    name = "game"
+    id = "candycrush"
+    value = "cc">Candy Crush
+</p>
+<p>
+  <input type = "radio"
+    name = "game"
+    id = "clashroyal" 
+    value = "cr"
+    checked = "checked">Clash Royal
+</p>    
+</fieldset>
+
+<fieldset>
+<legend>SUBMIT/RESET</legend> 
+<p>
+    <input type = "button"
+           value = "button" />
+</p>
+<p>
+<input type = "submit" />
+</p>
+<p>
+<input type = "reset" />
+</p>
+</fieldset>
+</form>
+</body>
+</html>
+
+
+

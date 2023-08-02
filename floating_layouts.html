@@ -1,0 +1,39 @@
+    <!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="YTF-8">
+    <title>floating layout</title>
+    <style type="text/css">
+        p {
+            border:  3px solid black ;
+            }
+        .float1 {
+            float: left;
+            padding: 1% ;
+            width: 47% ;
+            }
+        .float2 {
+            float: right ;
+            padding: 1% ;
+            width: 47% ;
+            }
+    </style>
+</head>
+<body>
+    <h1>specifing the width</h1>
+    <p>parargraph 1.
+        this para has the normal behaviour of a block level element.
+        it takes up the entire width of the page,
+         and the next element is placed underneath.
+    </p>
+    <p class="float1">parargraph 2.
+            this para is floated left. 
+            the next element will be placed to the right of it.
+            now this has the width of 50%.
+    </p>
+    <p class="float2">parargraph 3.
+        this para is floated towards right.
+        the next element will be placed in next underneath para 2.
+    </p>
+</body>
+</head>

@@ -1,0 +1,22 @@
+ /* external-style.css */
+ body {
+    background-color: darkorange;
+    color: red;
+ }
+ div {
+    border: 5px solid red;
+ }
+ h1 {
+    color: red;
+    text-align: center;
+    font: italic 200% fantasy;
+ }
+ p {
+    background-color: red;
+    color:rgb(0, 0, 0);
+    text-align: right;
+    font-size:130%;
+    border: 3px groove rgb(0, 0, 0);
+    margin: 5px;
+    padding: 5px;
+ }
