@@ -1,0 +1,36 @@
+/* threecolumn.css */
+
+#head {
+	text-align:center;
+	border-bottom:3px double grey;
+	}
+#left {
+	float: left;
+	width:20%;
+	padding-left:1%;
+	height:40em;
+	overflow:auto;
+	background-color:#EEEEEE;
+	}
+#center {
+	float: left;
+	width:55%;
+	padding-left:1%;
+	overflow:auto;
+	height:40em;
+	}
+#right {
+	float: left;
+	width:20%;
+	padding-left:1%;
+	height:40em;
+	overflow:auto;
+	background-color:#EEEEEE;
+	}
+#foot {
+	border:1px black solid;
+	float:left;
+	width:100%;
+	clear:both;
+	text-align:center;
+	}

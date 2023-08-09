@@ -1,0 +1,22 @@
+/* twocolumn.css */
+
+#head {
+	border-bottom:5px double black;
+	text-align:center;
+	}
+#left {
+	float: left;
+	width:20%;
+	padding:5px;
+	}
+#right {
+	border-left:5px gray double;
+	float: right;
+	width:78%;
+	padding:5px;
+	}
+#foot {
+	clear:both;
+	text-align:center;
+	border-top:5px double gray;
+	}

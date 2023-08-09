@@ -1,0 +1,61 @@
+/* nestedlist.css */
+
+body {
+	background-color:#FFECF0;
+	}
+
+/* unindent entire list */
+
+#menu ul {
+	margin-left:-2.5em;
+	}
+	
+/*set li as buttons*/
+
+#menu li {
+	list-style-type:none;
+	float:left;
+	width:10em;
+	text-align:center;
+	color:#EA8B9E;
+	border-radius:5px;
+	transition:color 0.1s ease-out;
+	background-color:#FFD9E1;
+	border:2px inset #EA8B9E;
+	}
+
+/*display anchors as buttons*/
+
+#menu a {
+	text-decoration:none;
+	display:block;
+	color:#EA8B9E;
+	transition:color 0.1s ease-out;
+	border-radius:5px;
+	border:1px solid #FFD9E1;
+	}
+	
+	/*change color on anchor hover */
+	
+#menu a:hover {
+	color:#FFD9E1;
+	background-color:#EA8B9E;
+	border:1px solid #FFD9E1;
+	border-radius:5px;
+	}
+	
+/*collapse menus*/
+
+#menu li ul {
+	display:none;
+	}
+	
+/*show submenus on hover*/
+
+#menu li:hover > ul {
+	display:block;
+	margin-left:-2em;
+	}
+	
+/*indent third generationn list*/
+
